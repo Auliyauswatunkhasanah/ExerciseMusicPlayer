@@ -177,22 +177,8 @@ public class MusicService extends Service implements
         PendingIntent pendInt = PendingIntent.getActivity(this, 0,
                 notIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
-//        Notification.Builder builder = new Notification.Builder(this);
-//
-//        builder.setContentIntent(pendInt)
-//                .setSmallIcon(R.drawable.ic_stop_black_24dp)
-//                .setTicker(songTitle)
-//                .setOngoing(true)
-//                .setContentTitle("Playing")
-//  .setContentText(songTitle);
-//        Notification not = builder.build();
 
-//        startForeground(NOTIFY_ID, not);
     }
 
-//    @Override
-//    public void onDestroy() {
-//        stopForeground(true);
-//    }
 }
 
